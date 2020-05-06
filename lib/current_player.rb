@@ -5,6 +5,7 @@ def turn_count(board)
     if unit == "X" || unit == "O"
       move_count.push(1)
     end
+  end
   move_count.length.to_i
 end
 
