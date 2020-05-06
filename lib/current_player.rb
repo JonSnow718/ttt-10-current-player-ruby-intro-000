@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  #move_count = []
+  move_count = []
   board.each do |unit|
     if unit == "X" || unit == "O"
       move_count.push(1)
